@@ -6,7 +6,7 @@ mod tests {
     #[test]
     fn create_log() {
         let log = Log::new(String::from(
-            "1477123675|ERROR|handler.cpp|127|findHandlers|Division by zero",
+            "1477123675|TRACE|handler.cpp|127|findHandlers|Division by zero",
         ));
         assert_eq!(
             Log {
